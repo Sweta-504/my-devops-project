@@ -2,19 +2,19 @@ DevOps Docker Project
 This project demonstrates basic DevOps practices using Docker, Linux, Git, and containerization.
 
 Five Key DevOps Concepts
-1. Infrastructure as Code (IaC)
+1. Infrastructure as Code (IaC):
 Infrastructure as Code is the practice of managing and provisioning computing infrastructure through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. In this project, the Dockerfile serves as IaC, defining the exact environment needed for the application to run consistently across different systems.
 
-2. Continuous Integration/Continuous Deployment (CI/CD)
+2. Continuous Integration/Continuous Deployment (CI/CD):
 CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts include automated testing, building, and deployment. This project establishes the foundation for a CI/CD pipeline where code changes can be automatically built into Docker images and deployed.
 
-3. Containerization
+3. Containerization:
 Containerization packages an application and its dependencies together in an isolated environment. Docker containers ensure that the application runs consistently across different computing environments, solving the "it works on my machine" problem. Containers are lightweight, portable, and provide process isolation.
 
-4. Version Control
+4. Version Control:
 Using Git for version control allows tracking changes, collaboration, and maintaining different versions of the project. This is essential for team collaboration, code review processes, and maintaining the ability to rollback to previous versions when needed.
 
-5. Configuration Management
+5. Configuration Management:
 Managing system configuration through code (Dockerfile) ensures consistency across development, testing, and production environments. All dependencies, system packages, and configurations are explicitly defined and version-controlled, eliminating environment-specific issues.
 
 How I Completed This Assignment
